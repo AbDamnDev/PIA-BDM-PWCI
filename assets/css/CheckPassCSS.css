@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2/09/2021, 02:41:20 PM
+    Author     : adele
+*/
+
+.Short {
+    width: 100%;
+    background-color: #dc3545;
+    margin-top: 5px;
+    height: 3px;
+    color: #dc3545;
+    font-weight: 500;
+    font-size: 12px;
+}
+.Weak {
+    width: 100%;
+    background-color: #ffc107;
+    margin-top: 5px;
+    height: 3px;
+    color: #ffc107;
+    font-weight: 500;
+    font-size: 12px;
+}
+.Good {
+    width: 100%;
+    background-color: #28a745;
+    margin-top: 5px;
+    height: 3px;
+    color: #28a745;
+    font-weight: 500;
+    font-size: 12px;
+}
+.Strong {
+    width: 100%;
+    background-color: #d39e00;
+    margin-top: 5px;
+    height: 3px;
+    color: #d39e00;
+    font-weight: 500;
+    font-size: 12px;
+}
+.UnlikeE{
+    width: 100%;
+    background-color: #dc3545;
+    margin-top: 5px;
+    height: 3px;
+    color: #dc3545;
+    font-weight: 500;
+    font-size: 12px;
+}
+.AlikeE{
+    width: 100%;
+    background-color: #28a745;
+    margin-top: 5px;
+    height: 3px;
+    color: #28a745;
+    font-weight: 500;
+    font-size: 12px;
+}
+.Valid{
+    width: 100%;
+    background-color: #28a745;
+    margin-top: 5px;
+    height: 3px;
+    color: #28a745;
+    font-weight: 500;
+    font-size: 12px;
+}
+.Invalid{
+	width: 100%;
+    background-color: #dc3545;
+    margin-top: 5px;
+    height: 3px;
+    color: #dc3545;
+    font-weight: 500;
+    font-size: 12px;
+}

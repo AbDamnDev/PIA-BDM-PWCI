@@ -1,0 +1,2 @@
+## Deteccion de Errores
+ErrorDocument 404 http://localhost:8080/Proyecto-BDM-PWCI/404.php

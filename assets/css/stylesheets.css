@@ -1,0 +1,408 @@
+:root{
+    --admin-color:      #C299F7;
+    --reporter-color:   #BBE0F5;
+    --user-color:       #C3F5BB;
+
+    
+    --published-color:  #000000;
+    --onreview-color:   #000000;
+    --draft-color:      #000000;
+
+    --acept-color:      #9EFFA2;
+    --edit-color:       #959FFF;
+    --cancel-color:     #FFA5A5;
+}
+
+p { color: /*burlywood*/ black;}
+
+text { color: black; font-size: 20px; text-align: justify; text-justify: inter-word; }
+.BigText { color: black; font-size: 25px; text-align: justify; text-justify: inter-word; font-weight: bold;}
+
+
+/*rgba(0, 128, 255, 0.5)*/
+
+#ContenidoCentral {
+    display: flex;
+}
+
+.LugarUsuario{ 
+    display: flex;
+    justify-content: right;
+    /*margin-left: 300px; /*300*/
+}
+
+.LugarUsuario form{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-top: -30%;
+}
+
+.LugarUsuario input{
+    color: white;
+    background: none;
+    border: none;
+    /*justify-content: end;*/
+    padding-top: 40%;
+    font-size: small;
+}
+
+/* #nomUs{
+    margin-right: 100px;
+} */
+
+#IniciarSesion{ /*Antes Class (un punto)*/
+    display: flex;
+    justify-content: right;
+    /* margin-left: 700px;o 900 o 15*/
+}
+
+#nomUs{
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+#imgUs {
+    border-radius: 50%;
+    background: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+#imgUs:hover{
+    cursor: pointer;  
+}
+
+
+#ContenidosBarraLateral {
+    margin: 10px;
+}
+
+html{
+    min-height: 100vh;
+    background-color: white!important;
+}
+
+.main{
+    padding: 0 30px;
+}
+
+.btn-reset{
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.edit-btn{
+    background-color: var(--edit-color);
+}
+
+.delete-btn{
+    background-color: var(--cancel-color);
+}
+
+.accept-btn{
+    background-color: var(--acept-color);
+}
+
+.NewNew {
+    width: 80%;
+    padding: 10px 20px;
+    margin: auto;
+    justify-content: center;
+}
+
+.NewNew form {
+    width: 100%;
+    background-color: #d8d7d7;
+    border-radius: 5px;
+}
+
+.NewNew form input#titulo{
+    margin-top: 5px;
+}
+
+.NewNew form input,
+.NewNew form p,
+.NewNew form textarea,
+.NewNew form select,
+.NewNew form div.ParaNotitas,
+.NewNew form div.ParaEtiquetas{
+    width: 90%;
+    margin-left: 5%;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    border-radius: 15px;
+}
+
+.NewNew form input,
+.NewNew form textarea{
+    background-color: #ececec;
+    resize: none;
+}
+
+.NewNew form input{
+    font-size: 24px;
+}
+
+.NewNew form input#foto{
+    font-size: 20px;
+    width: 50%;
+    margin-top: 15px;
+}
+.NewNew form input#video{
+    font-size: 20px;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.NewNew form textarea{
+   height: 400px;
+}
+
+.NewNew form textarea#descripcion{
+    height: 50px;
+}
+
+.botoncito,
+.NewNew button{
+    padding: 5px 40px;  /* Antes 10 40 */
+    border: 2px solid rgb(0, 0, 0);
+    background: black ;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    outline: none;
+    transition: all 300ms; 
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.botoncito:hover,
+.NewNew button:hover{
+    background: rgb(133, 133, 133);
+    color: #ffffff;
+    
+}
+.fotito{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: white; /*Antes rojo*/
+}
+#ProfPic{
+    max-height: 20%;
+    max-width: 20%;
+    border-radius: 50%;
+}
+#Fotos{
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+
+.ParaNotitas {
+	width: 100%;
+	height: 100%;
+}
+.ParaEtiquetas{
+	width: 100%;
+	height: 100%;
+}
+.CategoriaEnEditor,.FotoEnEditor, .VideoEnEditor{
+    background: #e4e4e4;
+    color: #888;
+    font-size: 13px;
+    margin-left: 5px;
+    width: 120px;
+    height: 50px;
+    position: relative;
+    margin-right: 5px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.CategoriaEnEditor button,.FotoEnEditor button, .VideoEnEditor button{
+    background: none;
+    border: cadetblue;
+    color: #000000;
+    margin-top: -20px;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+.CategoriaEnEditor text,.FotoEnEditor text, .VideoEnEditor text{
+  	color: black;
+    font-size: 14px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 2px;
+    word-wrap: break-word;
+}
+
+.CategoriaEnEditor button:hover,.FotoEnEditor button:hover, .VideoEnEditor button:hover{
+    background: gray;
+    border: none;
+    color: #000000;
+}
+
+.likeBTN{
+    background: none;
+    border: none;
+}
+
+.likeIMG{
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.comment{
+    max-width: 90%;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.megaComment{
+    margin-top: 5px;    
+    margin-bottom: 5px;
+}
+
+.comment .flexea{
+    display: flex;
+    background: rgb(196, 188, 188); /*estaba en comment y lo agregue a flexea*/
+    border-radius: 5px;
+}
+
+.comment div .userImgComment{
+    max-width: 50px;
+    max-height: 50px;
+
+    min-width: 15px;
+    min-height: 15px;
+
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    background: white;
+    border-radius: 50%;
+}
+
+.RepplyBTN{
+    background: none;
+    border: none;
+    color: blue;
+}
+
+.DeleteBTN{
+    background: none;
+    border: none;
+    color: rgb(184, 0, 0);
+}
+
+.Respuestas{
+    background: none;
+}
+
+
+.Reply{
+    max-width: 100%;
+   /* background: rgb(196, 188, 188);*/
+    border-radius: 5px;
+    margin: 5px;
+    display:            flex;
+    flex-flow:          column nowrap;
+    
+}
+.Reply > * {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    flex: 0 0 auto;
+}
+
+.comment_section{
+    margin-bottom: 5px;
+}
+
+.NewComment {
+    width: 95%;
+    background: rgb(196, 188, 188);
+    border-radius: 5px;
+}
+
+.NewComment form {
+    width: 100%;
+}
+
+.NewComment form textarea{
+    margin-top: 5px;
+    background-color: #ececec;
+    resize: none;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.imgButton{
+    height: 45px;
+    width: 45px;
+    border: none;
+    background-color: rgb(199, 197, 197);
+}
+.imgButton:hover{
+    background-color: #888;
+}
+
+/*Movimiento entre list boxxes*/
+#lstBox1, #lstBox2{
+    height:300px;
+    width:200px;
+  }
+  
+  .approveTermsContainer{
+    display:flex;
+    justify-content:center;
+  }
+  
+  .transferBtns {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  
+  .transferBtns{
+    float:left; 
+    align-self:center;
+  }
+  .contenedor__imagenes, .contenedor__video{    
+    display: flex;
+    
+    width: 80%;
+    padding: 10px 20px;
+    margin: auto;
+    position: fixed;
+    justify-content: center;
+    top: 10%;
+    left: 15%;
+    backdrop-filter: blur(10px); /*no parece ser reconocido*/
+    background-color: rgba(0, 128, 255, 0.5);
+    
+    border-radius: 20px;   
+    
+}
+.contenedor__imagenes, .contenedor__video{
+    display: none; /*poner none en ocultar, block en mostrar*/
+}
