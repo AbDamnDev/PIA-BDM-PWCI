@@ -6,7 +6,7 @@ class Conexion{
 
             $server="localhost"; 
             $username="root"; 
-            $password="Vc20201877$#"; //esta es la que puede cambiar
+            $password="root"; //esta es la que puede cambiar
             //$password="password"; //root password
             $database="NEWS_DAILY_PLANET";
 
